@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"common","l":"Constants"},{"p":"definitions","l":"Definitions"},{"p":"checks","l":"LengthsCheck"},{"p":"<Unnamed>","l":"TriangleInput"}]

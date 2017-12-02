@@ -1,8 +1,8 @@
 package common;
 
 /**
- * Defines all the error and success messages
- * in our program
+ * Defines all the errors and success messages
+ * in the program.
  */
 public class Constants {
 

@@ -45,39 +45,24 @@ public class TriangleInput {
 
     }
 
-    /**
-     * Show error message in the GUI
-     */
-    private static void showErrorMessage() {
-        JOptionPane.showMessageDialog(null,
-                Constants.ERROR_MESSSAGE_SIDES_MUST_POSITIVE,
-                Constants.ERROR_TITLE_CANNOT_CREATE_TRIANGLE,
-                JOptionPane.ERROR_MESSAGE);
-    }
+
 
 
     ActionListener checkButtonActionListener = e -> {
 
-        try {
-            /** Takes the three sides as input
-             * and then checks and the three sides
-             * to define the kind of triangle.
-             */
-            LengthsCheck lengthsCheck = new LengthsCheck();
 
-            double side1 = Double.parseDouble(side1Length.getText());
-            double side2 = Double.parseDouble(side2Length.getText());
-            double side3 = Double.parseDouble(side3Length.getText());
+    /** Takes the three sides as input
+     * and then checks and the three sides
+     * to define the kind of triangle.
+     */
+    LengthsCheck lengthsCheck = new LengthsCheck();
 
-            if (side1 > 0 && side2 > 0 && side3 > 0) {
-                lengthsCheck.checkTheTrianglesSides(side1, side2, side3);
-            } else {
-                showErrorMessage();
-            }
+    String side1 = side1Length.getText();
+    String side2 = side2Length.getText();
+    String side3 = side3Length.getText();
 
-        } catch (NumberFormatException nfe) {
-            showErrorMessage();
-        }
+    lengthsCheck.checkTheTrianglesSides(side1, side2, side3);
+
     };
 
 

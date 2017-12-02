@@ -2,7 +2,7 @@ package definitions;
 
 /**
  * Defines all the final static variables
- * in our software
+ * in the software.
  */
 public class Definitions {
 

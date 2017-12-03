@@ -7,7 +7,8 @@ Note that the length can be a double and it needs to be a positive number.
 # Instructions
 
 Run the TriangleID\src\TriangleInput.java file.
-\n Insert the 3 different side lengths and press the *Check* button to see if a triangle can be formed and if so, what type of triangle is formed.
+
+Insert the 3 different side lengths and press the *Check* button to see if a triangle can be formed and if so, what type of triangle is formed.
 
 # Tests
 

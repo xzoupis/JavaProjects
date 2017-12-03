@@ -13,7 +13,7 @@ Insert the 3 different side lengths and press the *Check* button to see if a tri
 
 In the TriangleID\Tests directory a variety of tests can be found.
 
-..* noTriangleTest(), tests if an input such as (1,2,3) will show the error message that a triangle cannot be formed.
+* noTriangleTest(), tests if an input such as (1,2,3) will show the error message that a triangle cannot be formed.
 ..* isScaleneTest(), tests if an input such as (2,3,4) will show the correct message of a scalene triangle formed.
 ..* testNumberFormatException(), tests if an input such as (a,2,3) will show the error message throw and exception.
 ..* noIsoscelesTest(), tests if an input such as (1,2,3) can form an isosceles triangle.

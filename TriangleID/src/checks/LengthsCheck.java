@@ -62,12 +62,11 @@ public class LengthsCheck {
     /**
      * Shows error message in the GUI.
      */
-    public static int showErrorMessage() {
+    public static void showErrorMessage() {
         JOptionPane.showMessageDialog(null,
                 Constants.ERROR_MESSSAGE_SIDES_MUST_POSITIVE,
                 Constants.ERROR_TITLE_CANNOT_CREATE_TRIANGLE,
                 JOptionPane.ERROR_MESSAGE);
-        return -1;
     }
 
     /**
@@ -119,6 +118,7 @@ public class LengthsCheck {
 
         }catch (NumberFormatException nfe) {
             showErrorMessage();
+            throw nfe;
         }
     }
 }
